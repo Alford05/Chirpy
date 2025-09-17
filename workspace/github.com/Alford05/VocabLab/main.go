@@ -30,7 +30,7 @@ type Quiz struct {
 func main() {
 	newApp := app.New()
 	newWindow := newApp.NewWindow("Vocab Trainer")
-	newWindow.Resize(fyne.NewSize(400, 700))
+	newWindow.Resize(fyne.NewSize(600, 900))
 
 	wordEntry := widget.NewMultiLineEntry()
 	wordEntry.SetPlaceHolder("Enter one word per line, minimum 10 words")
